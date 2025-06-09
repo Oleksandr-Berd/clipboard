@@ -1,28 +1,30 @@
 import Logo from "../../components/Logo/Logo";
+import SocNets from "../../components/SocNets/SocNets";
 import * as SC from "./FooterStyled";
 const Footer = () => {
   return (
     <SC.Footer>
       <Logo />
-      <nav>
+      <SC.NavStyled>
         <ul>
           <li>
-            <a href=""></a>FAQs
+            <a href="#">FAQ</a>
           </li>
           <li>
-            <a href=""></a>Contact Us
+            <a href="#">Contact Us</a>
           </li>
           <li>
-            <a href=""></a>Privacy Policy
+            <a href="#">Privacy Policy</a>
           </li>
           <li>
-            <a href=""></a>Press Kit
+            <a href="#">Press Kit</a>
           </li>
           <li>
-            <a href=""></a>Install Guide
+            <a href="#">Install Guide</a>
           </li>
         </ul>
-      </nav>
+      </SC.NavStyled>
+      <SocNets/>
     </SC.Footer>
   );
 };

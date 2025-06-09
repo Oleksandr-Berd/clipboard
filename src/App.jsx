@@ -1,5 +1,4 @@
-
-import * as SC from "./AppStyled"
+import * as SC from "./AppStyled";
 import Access from "./components/Access/Access";
 
 import Download from "./components/Download/Download";
@@ -15,13 +14,13 @@ function App() {
     <SC.AppStyled>
       <Header />
       <SharedLayout>
-      <Snippets />
-      <Access/>
-      <Workflow/>
-      <Partners/>
-      <Download/>
-      <Footer/>
+        <Snippets />
+        <Access />
+        <Workflow />
+        <Partners />
+        <Download />
       </SharedLayout>
+      <Footer />
     </SC.AppStyled>
   );
 }
