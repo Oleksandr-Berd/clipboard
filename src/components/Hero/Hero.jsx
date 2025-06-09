@@ -1,4 +1,4 @@
-import DownloadButtons from "../DownloadButtons/DownloadButtons";
+import DownloadLinks from "../DownloadLinks/DownloadLinks";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </p>
-      <DownloadButtons />
+      <DownloadLinks />
     </div>
   );
 };
