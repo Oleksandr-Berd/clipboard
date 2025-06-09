@@ -1,17 +1,21 @@
 import * as SC from "./SnippetsStyled";
+
+import compImg from "../../assets/images/image-computer.png";
 const Snippets = () => {
   return (
     <SC.SnippetsStyled>
-      <h2>Keep track of your snippets</h2>
-      <p>
+      <SC.SnippetsTitleStyled>
+        Keep track of your snippets
+      </SC.SnippetsTitleStyled>
+      <SC.SnippetsContent>
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
-      </p>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <ul>
+      </SC.SnippetsContent>
+      <SC.ThumbImgComp>
+        <img src={compImg} alt="computer" />
+      </SC.ThumbImgComp>
+      <SC.SnippettsList>
         <li>
           <h3>Quick Search</h3>
           <p>
@@ -30,7 +34,7 @@ const Snippets = () => {
             app.
           </p>
         </li>
-      </ul>
+      </SC.SnippettsList>
     </SC.SnippetsStyled>
   );
 };

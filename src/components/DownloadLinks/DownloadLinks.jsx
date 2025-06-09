@@ -1,4 +1,4 @@
-import * as SC from "./DonwloadLinks";
+import * as SC from "./DonwloadLinksStyled";
 
 const DownloadLinks = () => {
   return (
