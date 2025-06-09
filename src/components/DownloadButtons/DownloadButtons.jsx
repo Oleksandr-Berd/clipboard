@@ -3,8 +3,12 @@ import * as SC from "./DonwloadButtons";
 const DownloadButtons = () => {
   return (
     <SC.DownloadButtonsStyled>
-      <button type="button">Download for iOS</button>
-      <button type="button">Download for Mac</button>
+      <li>
+        <a href="#">Download for iOS</a>
+      </li>
+      <li>
+        <a href="#">Download for Mac</a>
+      </li>
     </SC.DownloadButtonsStyled>
   );
 };

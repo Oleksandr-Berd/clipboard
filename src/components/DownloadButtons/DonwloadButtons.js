@@ -1,3 +1,3 @@
 import styled from "@emotion/styled";
 
-export const DownloadButtonsStyled = styled.div``;
+export const DownloadButtonsStyled = styled.ul``;
