@@ -8,6 +8,10 @@ export const LogoThumbStyled = styled.div`
 
 margin-bottom: 64px;
 
+@media (min-width: 1280px){
+    margin-bottom: 56px;
+}
+
   & > img {
     width: inherit;
     height: inherit;
