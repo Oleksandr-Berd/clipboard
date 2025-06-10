@@ -6,8 +6,10 @@ import textIcon from "../../assets/images/icon-text.svg"
 const Workflow = () => {
   return (
     <SC.WorkflowStyled>
+      <SC.WorkFlowContentConStyled>
       <h3>Supercharge your workflow</h3>
       <p>We’ve got the tools to boost your productivity.</p>
+      </SC.WorkFlowContentConStyled>
       <SC.WorkflowListStyled>
         <li>
           <div>
