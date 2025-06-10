@@ -5,6 +5,11 @@ export const WorkflowStyled = styled.div`
   padding-bottom: 64px;
 
   text-align: center;
+
+  @media (min-width: 1280px){
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
 `;
 
 export const WorkFlowContentConStyled = styled.div`

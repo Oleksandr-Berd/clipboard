@@ -4,7 +4,7 @@ import * as SC from "./FooterStyled";
 const Footer = () => {
   return (
     <SC.Footer>
-      <Logo />
+      <Logo/>
       <SC.NavStyled>
         <ul>
           <li>
