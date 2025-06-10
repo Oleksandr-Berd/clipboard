@@ -1,8 +1,5 @@
 import * as SC from "./SocNetsStyled";
 
-import twitterIcon from "../../assets/images/icon-twitter.svg";
-import instaIcon from "../../assets/images/icon-instagram.svg";
-
 const SocNets = () => {
   return (
     <SC.SocNetStyled>
